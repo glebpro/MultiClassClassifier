@@ -24,7 +24,7 @@ class MultiClassClassifier(object):
         # text preprocessing+embedding
         self.glove_vectors_path = glove_vectors_path
         self.max_most_common_words = 1000 # when tokenize, only keep # most common words
-        self.max_sequence_length = 100 # keep only first # words of each training data sentence
+        self.max_sequence_length = 300 # keep only first # words of each training data sentence
         self.max_embeddings_length = 100 # consider only first # gloVe embeddings vector values
         # max_sequence_length >= max_embeddings_length, required?
 
@@ -34,7 +34,7 @@ class MultiClassClassifier(object):
         self.pool_size = 35
 
         # Training
-        self.batch_size = 128 # should equal convolution filter size?
+        self.batch_size = 30 # should equal convolution filter size?
         self.epochs = epochs
         self.validation_split = 0.2
 
@@ -82,6 +82,8 @@ class MultiClassClassifier(object):
     def evaluate(self, test_classes, test_data):
 
         test_classes, _ = self._make_numeric_classes(test_classes)
+        test_classes = keras.utils.to_categorical(test_classes, self.num_classes)
+
         test_data, _ = self._vectorize_texts(test_data)
 
         loss_and_acc = self.model.evaluate(test_data, test_classes, batch_size=self.batch_size)

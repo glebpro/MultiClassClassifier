@@ -2272,13 +2272,13 @@
 2271	Must have been an off night at this place.	NEGATIVE	NONE	GENRE_B
 2272	Builders already owe me more than 200 million yuan 29 million, and I don't know when I'm going to get it back. 	NEGATIVE	MONEY_ISSUE	GENRE_A
 2273	But the flood waters demolished the house and I fell into the water.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN	GENRE_A
-2274	"I was sick for almost two weeks" the doctor said.	NEGATIVE	PERSONA_CARE	GENRE_A
+2274	"I was sick for almost two weeks" the doctor said.	NEGATIVE	PERSONAL_CARE	GENRE_A
 2275	A few years ago, my son and I, driving from California to Texas, made an unplanned detour off Interstate 40 at Albuquerque, N.M., a city to which we had never been, and after wandering around for an hour or two, decided to eat at a restaurant of which we had never heard.	POSITIVE	GOING_TO_PLACES	GENRE_A
 2276	I eventually said no because it wasn't part of the house's culture.	NEGATIVE	COMMUNICATION_ISSUE	GENRE_A
 2277	He is almost unbearable to watch on screen, he has little to no charisma, and terrible comedic timing.  	NEGATIVE	NONE	GENRE_B
 2278	"Everybody should know that if I'm healthy, and I don't even have to be 100 percent healthy, I just want to play" said Jagr, the last player off the ice in practice both Monday and Tuesday.	NEUTRAL	PERSONAL_CARE	GENRE_A
 2279	Her role was played well.  	POSITIVE	NONE	GENRE_B
-2280	I definitely wanted to walk away from here on top.	POSITIVE	OOUTDOOR_ACTIVITY	GENRE_A
+2280	I definitely wanted to walk away from here on top.	POSITIVE	OUTDOOR_ACTIVITY	GENRE_A
 2281	Does not charge the Cingular (ATT) 8525 phone.	NEGATIVE	NONE	GENRE_B
 2282	I was deeply impressed with the character he played.  	POSITIVE	NONE	GENRE_B
 2283	Always a great time at Dos Gringos!	POSITIVE	NONE	GENRE_B
